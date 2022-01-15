@@ -1,0 +1,1058 @@
+_init_: <story!>
+story:
+  - "# <title>
+  
+  ### Begginning
+  
+  <starting.location!>
+
+
+  ### Dangers
+
+  - <danger!>.
+
+  - <danger!>.
+
+  - <danger!>.
+
+
+  ### Objective
+
+  If the party failes then <impending.doom>. To stop this the party will need to find:
+
+
+  - <completion.key>
+
+  - <completion.key>
+
+  - <completion.key>
+
+  
+  ### Areas of interest
+  
+  <locations>"
+title:
+  - <name!>, the <adj-1,2> <noun>
+adj:
+  - <color>
+  - <character.adjective>
+  - <character.adjective>
+  - <character.adjective>
+  - <character.adjective>
+noun:
+  - <building>
+  - <org.type.orderly>
+  - <org.type.chaotic>
+  - <wilds.type>
+  - <plants>
+  - <precipitation>
+  - <settlement.type>
+  - <character.type>
+  - <weapon>
+starting.location:
+  - starting in <name>, The party will contend with several dangers in this campaign. This location is a <location.description> <character!-0-1>
+  - starting in <location.vanilla>, the party will contend with several dangers in this campaign.
+completion.key:
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>, but <completion.key.downside>
+  - <completion.key.useful>, and <completion.key.upside>
+  - <completion.key.useful>, and <completion.key.upside>, but <completion.key.downside>
+completion.key.useful:
+  - something using <tech.type> that moves the party into a hard to reach area
+  - something using <tech.type> that opens a door
+  - something using <tech.type> that grafts onto one or more players
+  - someone with useful information about <tech.type>
+  - something using <tech.type> that can be traded
+  - something using <tech.type> to be used as bait
+  - something using <tech.type> that protects against (or cures) a danger
+  - something using <tech.type> that activates helpful numenera
+  - something using <tech.type> that can convince people
+  - a clue to a mystery about <tech.type>
+  - knowledge of a secret location
+  - knowledge of numenera using <tech.type>
+  - something using <tech.type> that reveals hidden information
+  - something using <tech.type> facillitates communication
+  - something using <tech.type> that can be sacrificed
+  - something using <tech.type> that can act as a powersource
+completion.key.downside:
+  - causes damage to a player when used
+  - causes damage over time to a player
+  - releases a hostile creature
+  - activates dangerous numenera
+  - may harm others
+  - not obviously helpful
+  - attracts unwanted attention
+  - moves a player down the damage track
+completion.key.upside:
+  - can be used going forward as a level <d10> artifact
+  - can be traded for a decent profit
+  - advances a player's personal journey
+tech.type:
+  - biotechnology
+  - nanotechnology
+  - artificial intelligence
+  - robotics
+  - dimensional warping
+  - exotic physics
+  - extreme chemistry
+  - psychic effects
+  - energy manipulation
+  - light manipulation
+  - gravity manipulation
+  - orbiting satalites
+  - accellerated learning
+  - weather manipulation
+danger:
+  - "<ambitious.org> Some people connected to the organization include: <character!-2-4'. '>"
+  - <corrupt.ancient> Currently planning <ancient.knack> to accomplish its goals. Some people are aware, at least in part, of this threat. <character!-2-4'. '>
+  - <arcane.enemy> This entity has focused their attention on some people. <character!-2-4'. '>
+  - a horde of <horde.creatures-1,1,2' and '> are trying <horde.impulse>. They currently are targeting <location.short>
+  - There is <cursed.place.type> that wants <cursed.place.impulse>. It is located at <location.short>
+cursed.place.type:
+  - an abandoned <building>
+  - a tear in reality
+  - a hidden numenera cache
+  - a reactivated complex
+  - a fold in space
+building:
+  - tower
+  - dome
+  - tunnel
+  - palace
+  - castle
+cursed.place.impulse:
+  - to draw in the weak-willed
+  - to spawn evil
+  - to grow
+  - to unleash monsters
+  - to consume the living
+  - to corrupt the living
+  - to be controlled
+horde.impulse:
+  - to grow strong
+  - to drive away their enemies
+  - to breed or multiply
+  - to consume
+  - to defend their home
+  - to spread
+arcane.enemy:
+  - <name> is <arcane.type> <arcane.impluse>.
+arcane.type:
+  - an arch nano
+  - an ambious robot
+  - a mad A.I.
+  - a thinking disease
+  - a sentient artifact
+  - a chosen one
+arcane.impluse:
+  - seeking true immortality
+  - seeking greater numenera power
+  - finding a worthy master
+  - ensnaring as many as possible
+  - fulfilling destiny
+  - trying to thwart destiny
+  - hoarding treasure
+corrupt.ancient:
+  - <name> is <ancient.type>.
+  - <creature.major.threat>
+ancient.type:
+  - an awakened A.I. that wants <ai.instinct>
+  - a transdimentional threat that wants <transdimentional.instinct>
+  - an interplanetary threat that wants <interplanetary.instinct>
+ai.instinct:
+  - to persue its original programming
+  - <ancient.instinct>
+transdimentional.instinct:
+  - to open a connection to the outside
+  - <ancient.instinct>
+interplanetary.instinct:
+  - to conquer new lands
+  - <ancient.instinct>
+ancient.instinct:
+  - to gather worshippers
+  - to tear down creation to its component parts
+  - to destroy all semplance of order
+  - to pass judgement
+  - to eliminate perceived disorder
+ancient.knack:
+  - to use <knack> and <knack>
+  - to lay curses
+  - to induce dreams
+  - to promise rewards
+  - to manipulate events
+  - to use overwhelming power
+  - to leverage a fundamental truth
+ambitious.org:
+  - <name> is a <org.type.orderly> that wants <org.instinct.orderly>. They generally use <knack> and <knack> to accomplish their goals.
+  - <name> is a <org.type.chaotic> that wants <org.instinct.chaotic>. They generally use <knack> and <knack> to accomplish their goals.
+  - <ambitious.org.vanilla>.
+ambitious.org.vanilla:
+  - The Order of Truth (Discovery 215)
+  - The Convergence (Discovery 216)
+  - The Angulan Knights (Discovery 217)
+  - The Jagged Dream (Discovery 218)
+  - The Redfleets (Discovery 219)
+  - The Sarracenians (Discovery 220)
+  - The Amber Gleaners (Destiny 245)
+  - The Order the Healing (Destiny 247)
+  - The League (Destiny 248)
+  - The Guild of Purity (Destiny 249)
+org.type.orderly:
+  - order of knights
+  - church
+  - branch of government
+org.instinct.orderly:
+  - to do what is “right” no matter the cost #Greater Good
+  - to establish and follow doctrine #Religious Organization
+  - to maintain the status quo #Corrupt Government
+  - to recruit
+org.type.chaotic:
+  - cult
+  - cabal
+  - theives guild
+org.instinct.chaotic:
+  - to take by subterfuge #Theives Guild 
+  - to infest from within #Cult
+  - to absorb those in power #Cabal
+  - to grow
+impending.doom:
+  - the strong will tyrannize the weak
+  - the few will dominate the many
+  - a sickness and disease will spread
+  - a civilization will be destroyed
+  - the rightful leader will not rule
+  - the societal order will fall apart
+  - the people will be enslaved
+  - the people will abandon what is right
+  - chaos will reign
+locations:
+  - "- <location!>
+  
+  - <location!>"
+  - "- <location!>
+  
+  - <location!>
+  
+  - <location!>"
+location:
+  - "<location.settled>"
+  - <location.vanilla>
+  - "<location.wild>"
+location.short:
+  - <location.vanilla>
+  - <name>, a <location.description>
+  - <name>, a <location.description>
+location.vanilla:
+  - The Westwood (Discovery 137)
+  - Charmonde (Discovery 138)
+  - Bodrov (Discovery 138)
+  - Shallamas (Discovery 139)
+  - The Amber Monolith (Discovery 140)
+  - The Obelisk of the Water God (Discovery 140)
+  - The City of Bridges (Discovery 141)
+  - Omar (Discovery 142)
+  - The Scarred Monoliths (Discovery 142)
+  - Keford (Discovery 142)
+  - Jaston (Discovery 143)
+  - Ledon (Discovery 143)
+  - Qi (Discovery 144)
+  - Castle Sarrat (Discovery 146)
+  - The Fourth Mark (Discovery 146)
+  - Beoth (Discovery 146)
+  - Kordech (Discovery 147)
+  - Castle Aventur (Discovery 147)
+  - Auspar (Discovery 149)
+  - Jyrek (Discovery 149)
+  - Stirthal (Discovery 151)
+  - Neverlost (Discovery 151)
+  - Thriest (Discovery 151)
+  - Boreg (Discovery 151)
+  - Yenth (Discovery 151)
+  - Mulen (Discovery 154)
+  - Dynafel (Discovery 154)
+  - Wyrfall (Discovery 154)
+  - Rachar (Discovery 155)
+  - Gtharren (Discovery 155)
+  - Rarmon (Discovery 156)
+  - Jargolamis and Luigolamis (Discovery 156)
+  - Far Brohn (Discovery 157)
+  - Rathscor Fortress (Discovery 158)
+  - Orrila (Discovery 158)
+  - Aian (Discovery 159)
+  - Ossam's Traveling Menagerie and Soaring Circus (Discovery 159)
+  - Ishlav (Discovery 160)
+  - Kaparin (Discovery 161)
+  - Glavis (Discovery 162)
+  - Pike's Head (Discovery 162)
+  - Scorpion's Reach (Discovery 163)
+  - Rarrow (Discovery 163)
+  - Aras Island (Discovery 164)
+  - Fengali Forest (Discovery 165)
+  - Eldan Firth (Discovery 166)
+  - Sea of Secrets (Discovery 166)
+  - The Island of the Last Migration (Discovery 166)
+  - The Crowd City (Discovery 169)
+  - Unseen Lake (Discovery 170)
+  - Deep Vormask (Discovery 170)
+  - Uxphon (Discovery 171)
+  - Mt. Zanlis (Discovery 172)
+  - Legrash (Discovery 172)
+  - Mencala Peak (Discovery 172)
+  - Hidden Naresh (Discovery 172)
+  - Titanic Ridge (Discovery 174)
+  - Curtaris (Discovery 174)
+  - The Slant Milieu (Discovery 175)
+  - Ingwald (Discovery 176)
+  - Caecilian Jungle (Discovery 176)
+  - The Empty Machine (Discovery 179)
+  - The Ausren Woods (Discovery 180)
+  - The Orgorek (Discovery 180)
+  - The Beanstalk (Discovery 180)
+  - The Great Slab (Discovery 182)
+  - White Lake (Discovery 182)
+  - Yosh-Ul (Discovery 182)
+  - The Lambent Fields (Discovery 183)
+  - Picalah (Discovery 183)
+  - Ephremon (Discovery 185)
+  - Padun (Discovery 185)
+  - Druissi (Discovery 185)
+  - The Untethered Legion (Discovery 185)
+  - Hthumos (Discovery 186)
+  - Home of Our Order of the Lady of the Salt Way (Discovery 187)
+  - Astaria (Discovery 189)
+  - Hayrest (Discovery 189)
+  - Salachia (Discovery 189)
+  - Quesun (Discovery 191)
+  - The Cromulus Ranks (Discovery 191)
+  - Lhauric (Discovery 192)
+  - The Weal of Baz (Discovery 193)
+  - The Twisted Spire (Discovery 195)
+  - Vebar (Discovery 195)
+  - Seshar (Discovery 196)
+  - Nebalich (Discovery 197)
+  - Redstone (Discovery 197)
+  - Guran, The City of the Missing (Discovery 198)
+  - Nihliesh (Discovery 202)
+  - Citadel of the Iron Saint (Discovery 204)
+  - Foundation Stones (Discovery 204)
+  - The Southern Wall (Discovery 204)
+  - The Fields of Frozen Flowers (Discovery 204)
+  - The Sheer (Discovery 206)
+  - Norou (Discovery 206)
+  - Wislayn (Discovery 207)
+  - Urzat Zarteri (Discovery 208)
+  - Sada Emidu (Discovery 208)
+  - Aendri (Discovery 213)
+  - Broley (Discovery 213)
+  - Dymath Fordye (Discovery 213)
+  - Essearnin (Discovery 213)
+  - Imalov Castle (Discovery 214)
+  - Songduel Ruins (Discovery 214)
+  - Spell Gill (Discovery 214)
+  - Umdera (Destiny 196)
+  - Enthait (Destiny 203)
+  - Rachid (Destiny 210)
+  - Taracal (Destiny 217)
+  - Delend (Destiny 225)
+location.settled:
+  - "<name> is a <location.settled.description>"
+location.wild:
+  - "<name> is a <location.wilds.description>"
+location.description:
+  - "<location.settled.description>"
+  - "<location.wilds.description>"
+location.wilds.description:
+  - "<wilds.type> known for <wilds.weird>. People living in or near this place includes: <character!-1-3'. '>"
+wilds.type:
+  - mountain
+  - plain
+  - swamp
+  - island
+  - forest
+  - jungle
+  - hill
+  - canyon
+  - river
+  - delta
+  - spring
+  - stream
+  - desert
+  - bog
+  - lake
+  - crator
+wilds.weird:
+  - being spooky
+  - <plants-1,2' and '> that emit different musical notes
+  - <plants-1,2' and '> that appear to be blowing to an unfelt wind
+  - <precipitation> of <liquid.weird>
+  - <plants-1,2' and '> appears to have blood instead of sap
+  - <plants-1,2' and '> that growes in midair
+  - glowing <color> crystals erupt from the ground
+  - spores the cause tiny mouths to erupt on flesh and cry out
+  - small ravines where gravity reverses for one second at the same time every day
+  - invisible barriers spread randomly through the area
+  - <precipitation> that follows people around
+  - <liquid.weird> where you expect water
+  - water that moves away from being touched
+  - having animals that are robots
+  - sudden changes in temperature
+  - gas that drives people mad comes out of random vents
+  - bottomless pits covered in mist
+  - floating <color> lights that are hard to catch
+  - random objects that occasionally vibrate
+  - <plants> that are extremely similar to people
+  - a huge stone with a humanlike face
+  - time moves a little more <speed>
+  - <plants-1,2' and '> with gass-filled sacs that explode if touched
+  - fruit or seeds of <plants> gives ability like cypher #update when cypher table roll is implemented
+  - eggs that hatch into tiny beings of light
+  - Giant spiderwebs without spiders
+  - <plants-1,2' and '> take the shape of animals
+  - space is distorted so that north-south is longer then east-west
+  - rocks that capture the minds of people who die here
+  - a fungus that develops into a human eye
+  - <plants-1,2' and '> grow in floating bubbles
+  - winds blowing in ever changing directions
+  - bits of an ancient ruin dot the landscape but cannot be touched or interacted with in any way
+  - an ancient road
+  - having a unique night sky
+  - being constantly shrouded in mist
+  - <plants-1,2' and '> that grow on metal or synth
+  - animals and insects that are utterly silent
+  - animals that are extremely tame and docile
+  - <plants-1,2' and '> that are intelligent and telepathic
+  - <plants-1,2' and '> that are razor sharp
+  - fish that swim in the air
+  - pools of <liquid.weird>
+  - smooth surfaces that reflect memories of those that look into them
+  - animals that are intelligent holograms
+  - <plants-1,2' and '> that are intelligent holograms
+  - Nonaggressive, floating, and passive sphere creature covered in eyes
+  - <plants-1,2' and '> that flash with inner <color> lights (clearly mechanical)
+  - maintained, isolated building that appears empty
+  - <precipitation> that leaves salty deposits
+  - giant insects
+color:
+  - red
+  - orange
+  - yellow
+  - green
+  - blue
+  - purple
+  - indigo
+  - white
+  - black
+  - brown
+  - magenta
+  - cyan
+  - silver
+  - golden
+  - pink
+speed:
+  - quickly
+  - slowly
+plants:
+  - trees
+  - flowers
+  - bushes
+  - vines
+  - grass
+precipitation:
+  - rain
+  - snow
+  - fog
+  - hail
+  - mist
+liquid.weird:
+  - acid
+  - blood
+  - alcohol
+  - oil
+  - magma
+  - perfume
+  - milk
+  - soda
+  - gasoline
+  - wine
+  - chocolate syrup
+  - glowing <color> liquid
+location.settled.description:
+  - "<settlement.type> known for <settlement.weird>. People living in or near this place includes: <character!-1-3'. '>"
+settlement.type:
+  - "village"
+  - "town"
+  - "camp"
+  - "city"
+  - "castle"
+  - "palace"
+settlement.weird:
+  - being spooky
+  - an oracle that doesn't believe in reality
+  - ghostly people that live alongside regular people
+  - a whispering voice that speaks from within a deep well
+  - the waters of a fountain that sometimes consume people (sending them to another dimension)
+  - one particular street that wraps around itself like a Mobius strip
+  - merchant that sells seeds that grow into small, living buildings
+  - merchant that sells glowing insects in jars that dim when mutants are near
+  - merchant that sells <plants> that glow as brightly as a glowglobe while alive
+  - merchant that sells pills that allow you to forget one hour of your choosing
+  - merchant that sells knife that cuts only synth
+  - merchant that sells caged bird that sings only when it cannot see another creature
+  - merchant that sells powerful artifacts and cyphers that work only in her presence
+  - farmer that sells produce that tastes delicious but fades away rather than spoils
+  - farmer that sells insects that he claims are tastiest when eaten alive
+  - resident that has a pet that looks like a goat with an insect’s head
+  - aeon Priest's tower emitting transmissions that give pleasant dreams
+  - aeon Priests that have equipped everyone with camera implants
+  - aeon Priests that have replaced the lower half of each resident with a four-legged reptilian body
+  - aeon Priests that have equipped everyone in town with a powerful healing injector for emergencies
+  - aeon Priests that arrested aging in the town fifty years ago (but the process is now lost)
+  - marketplace that has elaborate theft-detection security devices
+  - constabulary that has a flying platform from which to monitor the city
+  - wealthy people that have slave creatures that can teleport themselves and their masters
+  - wealthy people in town have <color> crystals embedded in their flesh
+  - strange lights that are sometimes seen floating down dark alleyways at night
+  - a prophet that foretells doom, predicting that huge fists will come down from the sky and kill everyone
+  - a sickness in town that makes the eyes of those stricken turn black and fall out
+  - water in the town square fountain that glows <color> in the dark
+  - children that glow with an eerie <color> luminescence
+  - a vendor that sells tasty brew that turns flesh bright <color> for one hour when imbibed
+  - a vendor that sells soup that, if eaten, makes one smell incredibly pungent for the rest of the day
+  - a vendor that sells people mysterious exact duplicates of things they already own
+  - a strange flute that everyone seems to be obsessed with playing
+  - a metal egg of great size in the center is worshipped, along with what they believe will emerge from it
+  - a section of a street that is always illuminated in a <color> light
+  - streets paved in synth
+  - being covered in fungal growths
+  - numerous large, noisy birds nesting in the city, disrupting everything
+  - ancient buildings made of indestructible glass
+  - plants quickly withering and dieing here
+  - buildings made to look like giants
+  - buildings shaped like cones, wider at the top than the bottom
+  - being built among the branches of a very large tree
+  - being built into the side of a cliff, more vertical than horizontal
+  - being a massive tower
+  - being encloses within an indestructable dome
+  - a wall built to resemble the coils of a massive serpent
+  - being encircled by a wall of solid sound
+  - having all the buildings underground, with hatchway doors giving access to each
+  - being built amid the jagged metal ruins of a huge, ancient structure
+  - being built amid the petrified bones of an impossibly huge creature
+  - being built amid a series of natural gas vents
+  - being surrounded by a field of fungus with poisonous spores (for defense)
+  - having religious festivals that involve exposing a few children to a gas that mutates them
+  - being a series of towers joined by elevated walkways
+  - a police force and guardians that are inhuman creatures
+  - using giant armadillolike creatures as mounts and beasts of burden
+  - having a leader that is a fused entity of six different people
+  - having a leader that is a superintelligent machine
+  - having a leader that has her consciousness infused in every structure
+  - having a leader that is a giant sluglike creature with an army of maintenance worker drones
+  - all leaders are octopoidal creatures in liquid-filled tanks
+  - pets that looks like a cat with the head of a human infant
+  - a machine that keeps the weather pleasant all the time
+  - moving very slowly (no more than an inch a day—across the landscape)
+  - everyone speaking in rhyme
+  - wanting to burn a man and woman they believe to be evil witches
+  - criminalizing numenera possession
+  - the people appearing deeply jaundiced, but are perfectly healthy
+  - being nonhumans in human guise to protect them against prejudice
+  - residents wearing masks and helmets made from giant insect carapaces
+  - residents having a tradition of wearing lots of garish face paint and cosmetics
+  - everyone goes to sleep and wakes up at precisely the same moment
+  - people in town appearing to be exact duplicates
+  - people in town having prosthetics made of bio-crystal
+  - the religion which worships the passage of time
+  - the religion which worships the concept of worship
+  - the religion which worships a damaged automaton as a god
+  - the religion which worships the sun (their temple bears a giant magnifying glass lens)
+  - treating nanos demigods
+  - being built on the carcass of a giant creature (feeding off its flesh and using its bones for materials)
+  - being built atop a massive stone statue of a nonhuman creature
+  - being located within the folds between dimensions (accessed only through a series of gateways)
+  - all the residents bearing the same scar on their heads
+  - everyone having their brains attached to a central mechanical brain via long cords
+  - Helium-filled balloons used to reach the tops of tall, ancient towers without staircases
+  - being always warm, thanks to a subterranean numenera device of great power
+  - huge, ancient arch of synth and glass arcs
+  - residents stoning visitants and abhumans to death for being demons
+  - vicious, metal-beaked birds that attack automatons for their parts
+character:
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - <vanilla.character>
+vanilla.character:
+  - Orannius (Discovery 267)
+  - Nariss Horges (Discovery 267)
+  - Tyrial Amakon (Discovery 267)
+  - Osin Lumas (Discovery 267)
+  - Al'Drak (Discovery 267)
+  - Veredus (Discovery 267)
+  - Illian (Discovery 268)
+  - Kairam Ahmed (Discovery 268)
+  - Naevro and Burrim (Discovery 268)
+character.adjective:
+  - calm
+  - arrogant
+  - humble
+  - eccentric
+  - charismatic
+  - rude
+  - aggressive
+  - angry
+  - flamboyant
+  - chic
+  - eclectic
+  - modest
+  - tall
+  - short
+  - rotund
+  - fit
+  - plump
+  - chiseled
+  - strong
+  - clever
+  - generous
+  - mysterious
+  - creative
+  - flexible
+  - ultraterrestrial
+  - charming
+  - clever
+  - graceful
+  - intelligent
+  - mystical
+  - mechanical
+  - rugged
+  - stealthy
+  - strong
+  - stong-wiled
+  - swift
+  - tough
+  - adaptable
+  - articulate
+  - beneficent
+  - cheerful
+  - civic
+  - committed
+  - confident
+  - cultured
+  - curious
+  - earnest
+  - empirical
+  - exacting
+  - forward-thinking
+  - gregarious
+  - heroic
+  - imaginative
+  - industrious
+  - intimidating
+  - intuitive
+  - irrepressible
+  - lawful
+  - loyal
+  - meddlesome
+  - nurturing
+  - obsessive
+  - optimistic
+  - organized
+  - passionate
+  - persevering
+  - prepared
+  - protective
+  - relentless
+  - risk-taking
+  - serene
+  - vicious
+character.type:
+  - glaive[<d2.10>]
+  - jack[<d2.10>]
+  - nano[<d2.10>]
+  - arkus[<d2.10>]
+  - delve[<d2.10>]
+  - wright[<d2.10>]
+  - man[<d2.6>]
+  - woman[<d2.6>]
+  - mutant[<d2.10>]
+  - farmer[<d2.6>]
+  - blacksmith[<d2.6>]
+  - merchant[<d2.6>]
+  - artisan[<d2.6>]
+  - criminal[<d2.10>]
+  - noble[<d2.10>]
+  - sage[<d2.10>]
+  - chiurgeon[<d2.8>]
+  - guardsman[<d2.8>]
+  - diplomat[<d2.8>]
+  - spy[<d2.10>]
+  - craftsman[<d2.8>]
+  - minstrel[<d2.8>]
+  - priest[<d2.10>]
+  - hermit[<d2.6>]
+  - shepard[<d2.6>]
+  - builder[<d2.6>]
+knack:
+  - criminal connections
+  - muscle
+  - skill with a <weapon>
+  - hedge magic
+  - local knowledge
+  - noble blood
+  - <numenera>
+  - Unique perspective
+  - hidden knowledge
+  - numenera awareness
+  - abnormal parentage
+  - political leverage
+  - a tie to a monster
+  - a secret
+  - true love
+  - an innocent heart
+  - a plan for the perfect crime
+  - a one-way ticket to paradise
+  - a mysterious ore
+  - money
+  - divine blessing
+  - immunity from the law
+  - prophecy
+  - secret martial arts techniques
+  - a ring of power
+  - a bag of taters
+  - a heart
+  - a fortified position
+  - lawmaking
+  - tongues
+  - a discerning eye
+  - endurance
+  - a safe place
+  - visions
+  - a beautiful mind
+  - a clear voice
+  - stunning looks
+  - a catchy tune
+  - invention
+  - baking
+  - brewing
+  - smelting
+  - woodworking
+  - writing
+  - immunity to fire
+  - cooking
+  - storytelling
+  - ratcatching
+  - lying
+  - utter unremarkableness
+  - mind-bending sexiness
+  - undefinable coolness
+  - a way with knots
+  - wheels of polished steel
+  - a magic carpet
+  - endless ideas
+  - persistence
+  - a stockpile of food
+  - a hidden path
+  - piety
+  - resistance to disease
+  - a library
+  - a silver tongue
+  - bloodline
+  - an innate spell
+  - balance
+  - souls
+  - speed
+  - a sense of right and wrong
+  - certainty
+  - an eye for detail
+  - heroic self-sacrifice
+  - sense of direction
+  - a big idea
+  - a hidden entrance to a city
+  - the love of someone powerful
+  - unquestioning loyalty
+  - exotic fruit
+  - poison
+  - perfect memory
+  - the language of birds
+  - a key to an important door
+  - metalworking
+  - mysterious benefactors
+  - steely nerves
+  - bluffing
+  - a trained wolf
+  - a long-lost sibling (regained)
+  - an arrow with your name on it
+  - a true name
+  - luck
+  - the attention of supernatural powers
+  - kindness
+  - strange tattoos
+  - a majestic beard
+  - a book in a strange language
+  - power overwhelming
+  - delusions of grandeur
+  - the wind at their back and a spring in their step
+instinct:
+  - avenge
+  - spread the good word
+  - reunite with a loved one
+  - make money
+  - make amends
+  - explore a mysterious place
+  - uncover a hidden truth
+  - locate a lost thing
+  - kill a hated foe
+  - conquer a faraway land
+  - cure an illness
+  - craft a masterwork
+  - survive just one more day
+  - earn affection
+  - prove a point
+  - be smarter, faster and stronger
+  - heal an old wound
+  - extinguish an evil forever
+  - hide from a shameful fact
+  - evangelize
+  - spread suffering
+  - prove worth
+  - rise in rank
+  - be praised
+  - discover the truth
+  - make good on a bet
+  - get out of an obligation
+  - convince someone to do their dirty work
+  - steal something valuable
+  - overcome a bad habit
+  - commit an atrocity
+  - earn renown
+  - accumulate power
+  - save someone from a monstrosity
+  - teach
+  - settle down
+  - get just one more haul
+  - preserve the law
+  - discover
+  - devour
+  - restore the family name
+  - live a quiet life
+  - help others
+  - atone
+  - prove their worth
+  - gain honor
+  - expand their land
+  - gain a title
+  - retreat from society
+  - escape
+  - party
+  - return home
+  - serve
+  - reclaim what was taken
+  - do what must be done
+  - be a champion
+  - avoid notice
+  - help a family member
+  - perfect a skill
+  - travel
+  - overcome a disadvantage
+  - play the game
+  - establish a dynasty
+  - improve the realm
+  - retire
+  - recover a lost memory
+  - battle
+  - become a terror to criminals
+  - raise dragons
+  - live up to expectations
+  - become someone else
+  - do what can’t be done
+  - be remembered in song
+  - be forgotten
+  - find true love
+  - lose their mind
+  - indulge
+  - make the best of it
+  - find the one
+  - destroy an artifact
+  - show them all
+  - bring about unending summer
+  - fly
+  - find the six-fingered man
+  - wake the ancient sleepers
+  - entertain
+  - follow an order
+  - die gloriously
+  - be careful
+  - show kindness
+  - not screw it all up
+  - uncover the past
+  - go where no man has gone before
+  - do good
+  - become a beast
+  - spill blood
+  - live forever
+  - hunt the most dangerous game
+  - hate
+  - run away
+name:
+  - <syllable!-1,2,2,3,3,4''>
+syllable:
+  - <consonant><vowel>
+  - <vowel><consonant>
+  - <consonant><vowel><consonant>
+consonant:
+  - "b"
+  - "c"
+  - "d"
+  - "f"
+  - "g"
+  - "h"
+  - "j"
+  - "k"
+  - "l"
+  - "m"
+  - "n"
+  - "p"
+  - "q"
+  - "r"
+  - "s"
+  - "t"
+  - "v"
+  - "w"
+  - "x"
+  - "y"
+  - "z"
+  - "th"
+  - "sh"
+  - "ch"
+  - "st"
+  - sc
+  - wh
+vowel:
+  - <vowel.single-1,2''>
+  - <vowel.single-1,2''>
+  - <vowel.r>
+vowel.single:
+  - "a"
+  - "e"
+  - "i"
+  - "o"
+  - "u"
+vowel.r:
+  - ar
+  - er
+  - ir
+  - or
+  - ur
+weapon:
+  - sword
+  - spear
+  - ax
+  - staff
+  - bow
+numenera:
+  - artifact
+  - cypher{<book> <d100>}
+  - oddity
+book:
+  - destiny
+  - discovery
+d10:
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
+  - "7"
+  - "8"
+  - "9"
+  - "10"
+d100:
+  - <d0.9><d0.9>
+d0.9:
+  - "0"
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
+  - "7"
+  - "8"
+  - "9"
+d6:
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
+d2.6:
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
+d2.8:
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
+  - "7"
+  - "8"
+d2.10:
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
+  - "7"
+  - "8"
+  - "9"
+  - "10"
+horde.creatures:
+  - laaks (Discovery 239)
+  - caffas (Discovery 227)
+  - broken hounds (Discovery 226)
+  - margrs (Discovery 240)
+  - seskiis (Discovery 252)
+  - stratharian war moths (Discovery 255)
+  - thumans (Doscovery 256)
+  - aneens (Discovery 225)
+  - blood barms (Discovery 226)
+  - murdens (Discovery 243)
+  - sathoshes (Discovery 251)
+  - snow lopers (Discovery 253)
+  - steel spiders (Discovery 254)
+  - tetrahydras (Discovery 256)
+  - yovoks (Discovery 261)
+  - zeks (Destiny 282)
+  - mimetans (Destiny 268)
+  - shinspinners (Destiny 276)
+  - trucklers (Destiny 280)
+  - babirasas (Destiny 254)
+  - cuiddits (Destiny 258)
+  - fossicks (Destiny 263)
+  - synth eaters (Destiny 277)
+creature.major.threat:
+  - callerail (Discovery 228)
+  - jiraskar (Discovery 238)
+  - dark fathom (Discovery 232)
+  - dread destroyer (Discovery 234)
+  - balithaur (Destiny 255)
+  - griefsteel (Destiny 264)
+  - rabid fabricator (Destiny 271)
+  - warcore (Destiny 281)
+  - choanid (Destiny 256)
+  - dread excavator (Destiny 260)

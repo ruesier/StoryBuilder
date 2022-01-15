@@ -1,0 +1,5 @@
+_init_: <test-2,3'+'>
+test:
+  - hello
+  - world
+  - build
