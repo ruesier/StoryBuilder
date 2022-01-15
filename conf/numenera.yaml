@@ -1,9 +1,9 @@
 _init_: <story!>
 story:
   - "# <title>
-  
+
   ### Begginning
-  
+
   <starting.location!>
 
 
@@ -27,9 +27,9 @@ story:
 
   - <completion.key>
 
-  
+
   ### Areas of interest
-  
+
   <locations>"
 title:
   - <name!>, the <adj-1,2> <noun>
@@ -218,7 +218,7 @@ org.type.chaotic:
   - cabal
   - theives guild
 org.instinct.chaotic:
-  - to take by subterfuge #Theives Guild 
+  - to take by subterfuge #Theives Guild
   - to infest from within #Cult
   - to absorb those in power #Cabal
   - to grow
@@ -234,17 +234,17 @@ impending.doom:
   - chaos will reign
 locations:
   - "- <location!>
-  
+
   - <location!>"
   - "- <location!>
-  
+
   - <location!>
-  
+
   - <location!>"
 location:
-  - "<location.settled>"
-  - <location.vanilla>
-  - "<location.wild>"
+  - <location.settled>
+  - "*<location.vanilla>*"
+  - <location.wild>
 location.short:
   - <location.vanilla>
   - <name>, a <location.description>
@@ -411,7 +411,7 @@ wilds.weird:
   - a huge stone with a humanlike face
   - time moves a little more <speed>
   - <plants-1,2' and '> with gass-filled sacs that explode if touched
-  - fruit or seeds of <plants> gives ability like cypher #update when cypher table roll is implemented
+  - fruit or seeds of <plants> gives ability like cypher (<book> <d100>)
   - eggs that hatch into tiny beings of light
   - Giant spiderwebs without spiders
   - <plants-1,2' and '> take the shape of animals
@@ -591,7 +591,7 @@ character:
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
-  - <vanilla.character>
+  - "*<vanilla.character>*"
 vanilla.character:
   - Orannius (Discovery 267)
   - Nariss Horges (Discovery 267)
@@ -904,7 +904,7 @@ instinct:
   - hate
   - run away
 name:
-  - <syllable!-1,2,2,3,3,4''>
+  - "**<syllable!-1,2,2,3,3,4''>**"
 syllable:
   - <consonant><vowel>
   - <vowel><consonant>
@@ -954,7 +954,7 @@ vowel.r:
   - or
   - ur
 weapon:
-  - sword
+  - swordname
   - spear
   - ax
   - staff
