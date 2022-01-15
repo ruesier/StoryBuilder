@@ -486,12 +486,12 @@ liquid.weird:
 location.settled.description:
   - "<settlement.type> known for <settlement.weird>. People living in or near this place includes: <character!-1-3'. '>"
 settlement.type:
-  - "village"
-  - "town"
-  - "camp"
-  - "city"
-  - "castle"
-  - "palace"
+  - "village[<d1.2>]"
+  - "town[<d2.3>]"
+  - "camp[1]"
+  - "city[<d3.4>]"
+  - "castle[<d2.3>]"
+  - "palace[<d2.3>]"
 settlement.weird:
   - being spooky
   - an oracle that doesn't believe in reality
@@ -1021,6 +1021,15 @@ d2.10:
   - "8"
   - "9"
   - "10"
+d1.2:
+  - "1"
+  - "2"
+d2.3:
+  - "2"
+  - "3"
+d3.4:
+  - "3"
+  - "4"
 horde.creatures:
   - laaks (Discovery 239)
   - caffas (Discovery 227)
