@@ -87,7 +87,38 @@ func extractSeparator(remaining string, indexes []int) string {
 	if indexes[8] < 0 {
 		return " "
 	}
-	return remaining[indexes[8]:indexes[9]]
+	return replaceSpecialCharacters(remaining[indexes[8]:indexes[9]])
+}
+
+func replaceSpecialCharacters(remaining string) string {
+	strBuilder := new(strings.Builder)
+	var e error
+	isEscaped := false
+	for _, char := range remaining {
+		if isEscaped {
+			switch char {
+			case '\\':
+				_, e = strBuilder.WriteRune('\\')
+			case 'n':
+				_, e = strBuilder.WriteRune('\n')
+			default:
+				_, e = strBuilder.WriteRune(char)
+			}
+			if e != nil {
+				panic(e)
+			}
+		} else {
+			if char == '\\' {
+				isEscaped = true
+			} else {
+				_, e = strBuilder.WriteRune(char)
+				if e != nil {
+					panic(e)
+				}
+			}
+		}
+	}
+	return strBuilder.String()
 }
 
 type basicChunk string

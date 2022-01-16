@@ -1,6 +1,6 @@
-_init_: <story!>
+_init_: <story>
 story:
-  - "# <title>
+  - "# <title!>
 
   ### Begginning
 
@@ -9,11 +9,7 @@ story:
 
   ### Dangers
 
-  - <danger!>.
-
-  - <danger!>.
-
-  - <danger!>.
+  - <danger!-2-4'.\\n- '>.
 
 
   ### Objective
@@ -21,11 +17,7 @@ story:
   If the party failes then <impending.doom>. To stop this the party will need to find:
 
 
-  - <completion.key>
-
-  - <completion.key>
-
-  - <completion.key>
+  - <completion.key-3-5'\\n- '>
 
 
   ### Areas of interest
