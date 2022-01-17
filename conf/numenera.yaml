@@ -1,3 +1,4 @@
+_module_: numenera
 _init_: <story>
 story:
   - "# <title!>

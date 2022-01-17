@@ -1,3 +1,4 @@
+_module_: numenera.location
 location:
   - <location.settled!>
   - "*<location.vanilla!>*"

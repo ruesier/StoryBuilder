@@ -1,3 +1,4 @@
+_module_: numenera.character
 character:
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"

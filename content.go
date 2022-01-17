@@ -1,6 +1,7 @@
 package storybuilder
 
 import (
+	"fmt"
 	"io"
 	"math/rand"
 	"strings"
@@ -8,9 +9,11 @@ import (
 )
 
 type StoryBuilder struct {
+	Module			   string              `yaml:"_module_"`
 	Init               string              `yaml:"_init_"`
 	Fill               map[string][]string `yaml:"-,inline"`
 	random             *rand.Rand
+	addedModules	   map[string]bool
 }
 
 func (sb *StoryBuilder) init() {
@@ -80,11 +83,25 @@ func (sb *StoryBuilder) WriteKey(w io.Writer, key string) (size int64, err error
 }
 
 func (sb *StoryBuilder) Combine(other *StoryBuilder) {
-	for key, list := range other.Fill {
-		if current, ok := sb.Fill[key]; ok {
-			sb.Fill[key] = append(current, list...)
-		} else {
-			sb.Fill[key] = list
+	if len(sb.Module) == 0 {
+		panic(fmt.Errorf("primary storybuilder is missing '_module_' field and so cannot be combined"))
+	}
+	if len(other.Module) == 0 {
+		panic(fmt.Errorf("failed to combine storybuilder due to missing '_module_' field"))
+	}
+	if sb.addedModules == nil {
+		sb.addedModules = map[string]bool{
+			sb.Module: true,
+		}
+	}
+	if added := sb.addedModules[other.Module]; !added {
+		sb.addedModules[other.Module] = true
+		for key, list := range other.Fill {
+			if current, ok := sb.Fill[key]; ok {
+				sb.Fill[key] = append(current, list...)
+			} else {
+				sb.Fill[key] = list
+			}
 		}
 	}
 }
