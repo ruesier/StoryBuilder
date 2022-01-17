@@ -1,0 +1,72 @@
+weapon:
+  - sword
+  - spear
+  - ax
+  - staff
+  - bow
+numenera:
+  - artifact
+  - cypher{<book> <d100>}
+  - oddity
+book:
+  - destiny
+  - discovery
+color:
+  - red
+  - orange
+  - yellow
+  - green
+  - blue
+  - purple
+  - indigo
+  - white
+  - black
+  - brown
+  - magenta
+  - cyan
+  - silver
+  - golden
+  - pink
+speed:
+  - quickly
+  - slowly
+plants:
+  - trees
+  - flowers
+  - bushes
+  - vines
+  - grass
+precipitation:
+  - rain
+  - snow
+  - fog
+  - hail
+  - mist
+liquid.weird:
+  - acid
+  - blood
+  - alcohol
+  - oil
+  - magma
+  - perfume
+  - milk
+  - soda
+  - gasoline
+  - wine
+  - chocolate syrup
+  - glowing <color> liquid
+tech.type:
+  - biotechnology
+  - nanotechnology
+  - artificial intelligence
+  - robotics
+  - dimensional warping
+  - exotic physics
+  - extreme chemistry
+  - psychic effects
+  - energy manipulation
+  - light manipulation
+  - gravity manipulation
+  - orbiting satalites
+  - accellerated learning
+  - weather manipulation

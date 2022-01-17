@@ -1,0 +1,306 @@
+location:
+  - <location.settled!>
+  - "*<location.vanilla!>*"
+  - <location.wild!>
+location.short:
+  - <location.vanilla>
+  - <name>, a <location.description>
+  - <name>, a <location.description>
+location.vanilla:
+  - The Westwood (Discovery 137)
+  - Charmonde (Discovery 138)
+  - Bodrov (Discovery 138)
+  - Shallamas (Discovery 139)
+  - The Amber Monolith (Discovery 140)
+  - The Obelisk of the Water God (Discovery 140)
+  - The City of Bridges (Discovery 141)
+  - Omar (Discovery 142)
+  - The Scarred Monoliths (Discovery 142)
+  - Keford (Discovery 142)
+  - Jaston (Discovery 143)
+  - Ledon (Discovery 143)
+  - Qi (Discovery 144)
+  - Castle Sarrat (Discovery 146)
+  - The Fourth Mark (Discovery 146)
+  - Beoth (Discovery 146)
+  - Kordech (Discovery 147)
+  - Castle Aventur (Discovery 147)
+  - Auspar (Discovery 149)
+  - Jyrek (Discovery 149)
+  - Stirthal (Discovery 151)
+  - Neverlost (Discovery 151)
+  - Thriest (Discovery 151)
+  - Boreg (Discovery 151)
+  - Yenth (Discovery 151)
+  - Mulen (Discovery 154)
+  - Dynafel (Discovery 154)
+  - Wyrfall (Discovery 154)
+  - Rachar (Discovery 155)
+  - Gtharren (Discovery 155)
+  - Rarmon (Discovery 156)
+  - Jargolamis and Luigolamis (Discovery 156)
+  - Far Brohn (Discovery 157)
+  - Rathscor Fortress (Discovery 158)
+  - Orrila (Discovery 158)
+  - Aian (Discovery 159)
+  - Ossam's Traveling Menagerie and Soaring Circus (Discovery 159)
+  - Ishlav (Discovery 160)
+  - Kaparin (Discovery 161)
+  - Glavis (Discovery 162)
+  - Pike's Head (Discovery 162)
+  - Scorpion's Reach (Discovery 163)
+  - Rarrow (Discovery 163)
+  - Aras Island (Discovery 164)
+  - Fengali Forest (Discovery 165)
+  - Eldan Firth (Discovery 166)
+  - Sea of Secrets (Discovery 166)
+  - The Island of the Last Migration (Discovery 166)
+  - The Crowd City (Discovery 169)
+  - Unseen Lake (Discovery 170)
+  - Deep Vormask (Discovery 170)
+  - Uxphon (Discovery 171)
+  - Mt. Zanlis (Discovery 172)
+  - Legrash (Discovery 172)
+  - Mencala Peak (Discovery 172)
+  - Hidden Naresh (Discovery 172)
+  - Titanic Ridge (Discovery 174)
+  - Curtaris (Discovery 174)
+  - The Slant Milieu (Discovery 175)
+  - Ingwald (Discovery 176)
+  - Caecilian Jungle (Discovery 176)
+  - The Empty Machine (Discovery 179)
+  - The Ausren Woods (Discovery 180)
+  - The Orgorek (Discovery 180)
+  - The Beanstalk (Discovery 180)
+  - The Great Slab (Discovery 182)
+  - White Lake (Discovery 182)
+  - Yosh-Ul (Discovery 182)
+  - The Lambent Fields (Discovery 183)
+  - Picalah (Discovery 183)
+  - Ephremon (Discovery 185)
+  - Padun (Discovery 185)
+  - Druissi (Discovery 185)
+  - The Untethered Legion (Discovery 185)
+  - Hthumos (Discovery 186)
+  - Home of Our Order of the Lady of the Salt Way (Discovery 187)
+  - Astaria (Discovery 189)
+  - Hayrest (Discovery 189)
+  - Salachia (Discovery 189)
+  - Quesun (Discovery 191)
+  - The Cromulus Ranks (Discovery 191)
+  - Lhauric (Discovery 192)
+  - The Weal of Baz (Discovery 193)
+  - The Twisted Spire (Discovery 195)
+  - Vebar (Discovery 195)
+  - Seshar (Discovery 196)
+  - Nebalich (Discovery 197)
+  - Redstone (Discovery 197)
+  - Guran, The City of the Missing (Discovery 198)
+  - Nihliesh (Discovery 202)
+  - Citadel of the Iron Saint (Discovery 204)
+  - Foundation Stones (Discovery 204)
+  - The Southern Wall (Discovery 204)
+  - The Fields of Frozen Flowers (Discovery 204)
+  - The Sheer (Discovery 206)
+  - Norou (Discovery 206)
+  - Wislayn (Discovery 207)
+  - Urzat Zarteri (Discovery 208)
+  - Sada Emidu (Discovery 208)
+  - Aendri (Discovery 213)
+  - Broley (Discovery 213)
+  - Dymath Fordye (Discovery 213)
+  - Essearnin (Discovery 213)
+  - Imalov Castle (Discovery 214)
+  - Songduel Ruins (Discovery 214)
+  - Spell Gill (Discovery 214)
+  - Umdera (Destiny 196)
+  - Enthait (Destiny 203)
+  - Rachid (Destiny 210)
+  - Taracal (Destiny 217)
+  - Delend (Destiny 225)
+location.settled:
+  - "<name> is a <location.settled.description>"
+location.wild:
+  - "<name> is a <location.wilds.description>"
+location.description:
+  - "<location.settled.description>"
+  - "<location.wilds.description>"
+location.wilds.description:
+  - "<wilds.type> known for <wilds.weird>. People living in or near this place includes: 
+  
+
+  \t- <character!-2-4'.\\n\t- '>."
+wilds.type:
+  - mountain
+  - plain
+  - swamp
+  - island
+  - forest
+  - jungle
+  - hill
+  - canyon
+  - river
+  - delta
+  - spring
+  - stream
+  - desert
+  - bog
+  - lake
+  - crator
+wilds.weird:
+  - being spooky
+  - <plants-1,2' and '> that emit different musical notes
+  - <plants-1,2' and '> that appear to be blowing to an unfelt wind
+  - <precipitation> of <liquid.weird>
+  - <plants-1,2' and '> appears to have blood instead of sap
+  - <plants-1,2' and '> that growes in midair
+  - glowing <color> crystals erupt from the ground
+  - spores the cause tiny mouths to erupt on flesh and cry out
+  - small ravines where gravity reverses for one second at the same time every day
+  - invisible barriers spread randomly through the area
+  - <precipitation> that follows people around
+  - <liquid.weird> where you expect water
+  - water that moves away from being touched
+  - having animals that are robots
+  - sudden changes in temperature
+  - gas that drives people mad comes out of random vents
+  - bottomless pits covered in mist
+  - floating <color> lights that are hard to catch
+  - random objects that occasionally vibrate
+  - <plants> that are extremely similar to people
+  - a huge stone with a humanlike face
+  - time moves a little more <speed>
+  - <plants-1,2' and '> with gass-filled sacs that explode if touched
+  - fruit or seeds of <plants> gives ability like cypher (<book> <d100>)
+  - eggs that hatch into tiny beings of light
+  - Giant spiderwebs without spiders
+  - <plants-1,2' and '> take the shape of animals
+  - space is distorted so that north-south is longer then east-west
+  - rocks that capture the minds of people who die here
+  - a fungus that develops into a human eye
+  - <plants-1,2' and '> grow in floating bubbles
+  - winds blowing in ever changing directions
+  - bits of an ancient ruin dot the landscape but cannot be touched or interacted with in any way
+  - an ancient road
+  - having a unique night sky
+  - being constantly shrouded in mist
+  - <plants-1,2' and '> that grow on metal or synth
+  - animals and insects that are utterly silent
+  - animals that are extremely tame and docile
+  - <plants-1,2' and '> that are intelligent and telepathic
+  - <plants-1,2' and '> that are razor sharp
+  - fish that swim in the air
+  - pools of <liquid.weird>
+  - smooth surfaces that reflect memories of those that look into them
+  - animals that are intelligent holograms
+  - <plants-1,2' and '> that are intelligent holograms
+  - Nonaggressive, floating, and passive sphere creature covered in eyes
+  - <plants-1,2' and '> that flash with inner <color> lights (clearly mechanical)
+  - maintained, isolated building that appears empty
+  - <precipitation> that leaves salty deposits
+  - giant insects
+location.settled.description:
+  - "<settlement.type> known for <settlement.weird>. People living in or near this place includes: 
+  
+
+  \t- <character!-2-4'.\\n\t- '>.
+  "
+settlement.type:
+  - "village[<d1.2>]"
+  - "town[<d2.3>]"
+  - "camp[1]"
+  - "city[<d3.4>]"
+  - "castle[<d2.3>]"
+  - "palace[<d2.3>]"
+settlement.weird:
+  - being spooky
+  - an oracle that doesn't believe in reality
+  - ghostly people that live alongside regular people
+  - a whispering voice that speaks from within a deep well
+  - the waters of a fountain that sometimes consume people (sending them to another dimension)
+  - one particular street that wraps around itself like a Mobius strip
+  - merchant that sells seeds that grow into small, living buildings
+  - merchant that sells glowing insects in jars that dim when mutants are near
+  - merchant that sells <plants> that glow as brightly as a glowglobe while alive
+  - merchant that sells pills that allow you to forget one hour of your choosing
+  - merchant that sells knife that cuts only synth
+  - merchant that sells caged bird that sings only when it cannot see another creature
+  - merchant that sells powerful artifacts and cyphers that work only in her presence
+  - farmer that sells produce that tastes delicious but fades away rather than spoils
+  - farmer that sells insects that he claims are tastiest when eaten alive
+  - resident that has a pet that looks like a goat with an insect’s head
+  - aeon Priest's tower emitting transmissions that give pleasant dreams
+  - aeon Priests that have equipped everyone with camera implants
+  - aeon Priests that have replaced the lower half of each resident with a four-legged reptilian body
+  - aeon Priests that have equipped everyone in town with a powerful healing injector for emergencies
+  - aeon Priests that arrested aging in the town fifty years ago (but the process is now lost)
+  - marketplace that has elaborate theft-detection security devices
+  - constabulary that has a flying platform from which to monitor the city
+  - wealthy people that have slave creatures that can teleport themselves and their masters
+  - wealthy people in town have <color> crystals embedded in their flesh
+  - strange lights that are sometimes seen floating down dark alleyways at night
+  - a prophet that foretells doom, predicting that huge fists will come down from the sky and kill everyone
+  - a sickness in town that makes the eyes of those stricken turn black and fall out
+  - water in the town square fountain that glows <color> in the dark
+  - children that glow with an eerie <color> luminescence
+  - a vendor that sells tasty brew that turns flesh bright <color> for one hour when imbibed
+  - a vendor that sells soup that, if eaten, makes one smell incredibly pungent for the rest of the day
+  - a vendor that sells people mysterious exact duplicates of things they already own
+  - a strange flute that everyone seems to be obsessed with playing
+  - a metal egg of great size in the center is worshipped, along with what they believe will emerge from it
+  - a section of a street that is always illuminated in a <color> light
+  - streets paved in synth
+  - being covered in fungal growths
+  - numerous large, noisy birds nesting in the city, disrupting everything
+  - ancient buildings made of indestructible glass
+  - plants quickly withering and dieing here
+  - buildings made to look like giants
+  - buildings shaped like cones, wider at the top than the bottom
+  - being built among the branches of a very large tree
+  - being built into the side of a cliff, more vertical than horizontal
+  - being a massive tower
+  - being encloses within an indestructable dome
+  - a wall built to resemble the coils of a massive serpent
+  - being encircled by a wall of solid sound
+  - having all the buildings underground, with hatchway doors giving access to each
+  - being built amid the jagged metal ruins of a huge, ancient structure
+  - being built amid the petrified bones of an impossibly huge creature
+  - being built amid a series of natural gas vents
+  - being surrounded by a field of fungus with poisonous spores (for defense)
+  - having religious festivals that involve exposing a few children to a gas that mutates them
+  - being a series of towers joined by elevated walkways
+  - a police force and guardians that are inhuman creatures
+  - using giant armadillolike creatures as mounts and beasts of burden
+  - having a leader that is a fused entity of six different people
+  - having a leader that is a superintelligent machine
+  - having a leader that has her consciousness infused in every structure
+  - having a leader that is a giant sluglike creature with an army of maintenance worker drones
+  - all leaders are octopoidal creatures in liquid-filled tanks
+  - pets that looks like a cat with the head of a human infant
+  - a machine that keeps the weather pleasant all the time
+  - moving very slowly (no more than an inch a day—across the landscape)
+  - everyone speaking in rhyme
+  - wanting to burn a man and woman they believe to be evil witches
+  - criminalizing numenera possession
+  - the people appearing deeply jaundiced, but are perfectly healthy
+  - being nonhumans in human guise to protect them against prejudice
+  - residents wearing masks and helmets made from giant insect carapaces
+  - residents having a tradition of wearing lots of garish face paint and cosmetics
+  - everyone goes to sleep and wakes up at precisely the same moment
+  - people in town appearing to be exact duplicates
+  - people in town having prosthetics made of bio-crystal
+  - the religion which worships the passage of time
+  - the religion which worships the concept of worship
+  - the religion which worships a damaged automaton as a god
+  - the religion which worships the sun (their temple bears a giant magnifying glass lens)
+  - treating nanos demigods
+  - being built on the carcass of a giant creature (feeding off its flesh and using its bones for materials)
+  - being built atop a massive stone statue of a nonhuman creature
+  - being located within the folds between dimensions (accessed only through a series of gateways)
+  - all the residents bearing the same scar on their heads
+  - everyone having their brains attached to a central mechanical brain via long cords
+  - Helium-filled balloons used to reach the tops of tall, ancient towers without staircases
+  - being always warm, thanks to a subterranean numenera device of great power
+  - huge, ancient arch of synth and glass arcs
+  - residents stoning visitants and abhumans to death for being demons
+  - vicious, metal-beaked birds that attack automatons for their parts

@@ -1,0 +1,42 @@
+completion.key:
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>
+  - <completion.key.useful>, but <completion.key.downside>
+  - <completion.key.useful>, and <completion.key.upside>
+  - <completion.key.useful>, and <completion.key.upside>, but <completion.key.downside>
+completion.key.useful:
+  - something using <tech.type> that moves the party into a hard to reach area
+  - something using <tech.type> that opens a door
+  - something using <tech.type> that grafts onto one or more players
+  - someone with useful information about <tech.type>
+  - something using <tech.type> that can be traded
+  - something using <tech.type> to be used as bait
+  - something using <tech.type> that protects against (or cures) a danger
+  - something using <tech.type> that activates helpful numenera
+  - something using <tech.type> that can convince people
+  - a clue to a mystery about <tech.type>
+  - knowledge of a secret location
+  - knowledge of numenera using <tech.type>
+  - something using <tech.type> that reveals hidden information
+  - something using <tech.type> facillitates communication
+  - something using <tech.type> that can be sacrificed
+  - something using <tech.type> that can act as a powersource
+completion.key.downside:
+  - causes damage to a player when used
+  - causes damage over time to a player
+  - releases a hostile creature
+  - activates dangerous numenera
+  - may harm others
+  - not obviously helpful
+  - attracts unwanted attention
+  - moves a player down the damage track
+completion.key.upside:
+  - can be used going forward as a level <d10> artifact
+  - can be traded for a decent profit
+  - advances a player's personal journey

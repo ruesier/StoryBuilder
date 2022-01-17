@@ -23,7 +23,7 @@ type chunk interface {
 	String() string
 }
 
-func buildChunks(str string, sb StoryBuilder) (chunks []chunk) {
+func buildChunks(str string, sb *StoryBuilder) (chunks []chunk) {
 	var remaining = str
 	chunks = make([]chunk, 0, 1)
 	for len(remaining) > 0 {
@@ -133,7 +133,7 @@ func (bc basicChunk) WriteTo(w io.Writer) (int64, error) {
 }
 
 type randomChunk struct {
-	sb        StoryBuilder
+	sb        *StoryBuilder
 	key       string
 	amounts   []int
 	separator string

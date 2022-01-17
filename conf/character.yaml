@@ -1,0 +1,355 @@
+character:
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
+  - "*<vanilla.character>*"
+vanilla.character:
+  - Orannius (Discovery 267)
+  - Nariss Horges (Discovery 267)
+  - Tyrial Amakon (Discovery 267)
+  - Osin Lumas (Discovery 267)
+  - Al'Drak (Discovery 267)
+  - Veredus (Discovery 267)
+  - Illian (Discovery 268)
+  - Kairam Ahmed (Discovery 268)
+  - Naevro and Burrim (Discovery 268)
+character.adjective:
+  - calm
+  - arrogant
+  - humble
+  - eccentric
+  - charismatic
+  - rude
+  - aggressive
+  - angry
+  - flamboyant
+  - chic
+  - eclectic
+  - modest
+  - tall
+  - short
+  - rotund
+  - fit
+  - plump
+  - chiseled
+  - strong
+  - clever
+  - generous
+  - mysterious
+  - creative
+  - flexible
+  - ultraterrestrial
+  - charming
+  - clever
+  - graceful
+  - intelligent
+  - mystical
+  - mechanical
+  - rugged
+  - stealthy
+  - strong
+  - stong-wiled
+  - swift
+  - tough
+  - adaptable
+  - articulate
+  - beneficent
+  - cheerful
+  - civic
+  - committed
+  - confident
+  - cultured
+  - curious
+  - earnest
+  - empirical
+  - exacting
+  - forward-thinking
+  - gregarious
+  - heroic
+  - imaginative
+  - industrious
+  - intimidating
+  - intuitive
+  - irrepressible
+  - lawful
+  - loyal
+  - meddlesome
+  - nurturing
+  - obsessive
+  - optimistic
+  - organized
+  - passionate
+  - persevering
+  - prepared
+  - protective
+  - relentless
+  - risk-taking
+  - serene
+  - vicious
+character.type:
+  - glaive[<d2.10>]
+  - jack[<d2.10>]
+  - nano[<d2.10>]
+  - arkus[<d2.10>]
+  - delve[<d2.10>]
+  - wright[<d2.10>]
+  - man[<d2.6>]
+  - woman[<d2.6>]
+  - mutant[<d2.10>]
+  - farmer[<d2.6>]
+  - blacksmith[<d2.6>]
+  - merchant[<d2.6>]
+  - artisan[<d2.6>]
+  - criminal[<d2.10>]
+  - noble[<d2.10>]
+  - sage[<d2.10>]
+  - chiurgeon[<d2.8>]
+  - guardsman[<d2.8>]
+  - diplomat[<d2.8>]
+  - spy[<d2.10>]
+  - craftsman[<d2.8>]
+  - minstrel[<d2.8>]
+  - priest[<d2.10>]
+  - hermit[<d2.6>]
+  - shepard[<d2.6>]
+  - builder[<d2.6>]
+knack:
+  - criminal connections
+  - muscle
+  - skill with a <weapon>
+  - hedge magic
+  - local knowledge
+  - noble blood
+  - <numenera>
+  - Unique perspective
+  - hidden knowledge
+  - numenera awareness
+  - abnormal parentage
+  - political leverage
+  - a tie to a monster
+  - a secret
+  - true love
+  - an innocent heart
+  - a plan for the perfect crime
+  - a one-way ticket to paradise
+  - a mysterious ore
+  - money
+  - divine blessing
+  - immunity from the law
+  - prophecy
+  - secret martial arts techniques
+  - a ring of power
+  - a bag of taters
+  - a heart
+  - a fortified position
+  - lawmaking
+  - tongues
+  - a discerning eye
+  - endurance
+  - a safe place
+  - visions
+  - a beautiful mind
+  - a clear voice
+  - stunning looks
+  - a catchy tune
+  - invention
+  - baking
+  - brewing
+  - smelting
+  - woodworking
+  - writing
+  - immunity to fire
+  - cooking
+  - storytelling
+  - ratcatching
+  - lying
+  - utter unremarkableness
+  - mind-bending sexiness
+  - undefinable coolness
+  - a way with knots
+  - wheels of polished steel
+  - a magic carpet
+  - endless ideas
+  - persistence
+  - a stockpile of food
+  - a hidden path
+  - piety
+  - resistance to disease
+  - a library
+  - a silver tongue
+  - bloodline
+  - an innate spell
+  - balance
+  - souls
+  - speed
+  - a sense of right and wrong
+  - certainty
+  - an eye for detail
+  - heroic self-sacrifice
+  - sense of direction
+  - a big idea
+  - a hidden entrance to a city
+  - the love of someone powerful
+  - unquestioning loyalty
+  - exotic fruit
+  - poison
+  - perfect memory
+  - the language of birds
+  - a key to an important door
+  - metalworking
+  - mysterious benefactors
+  - steely nerves
+  - bluffing
+  - a trained wolf
+  - a long-lost sibling (regained)
+  - an arrow with your name on it
+  - a true name
+  - luck
+  - the attention of supernatural powers
+  - kindness
+  - strange tattoos
+  - a majestic beard
+  - a book in a strange language
+  - power overwhelming
+  - delusions of grandeur
+  - "the wind at their back and a spring in their step"
+
+instinct:
+  - avenge
+  - spread the good word
+  - reunite with a loved one
+  - make money
+  - make amends
+  - explore a mysterious place
+  - uncover a hidden truth
+  - locate a lost thing
+  - kill a hated foe
+  - conquer a faraway land
+  - cure an illness
+  - craft a masterwork
+  - survive just one more day
+  - earn affection
+  - prove a point
+  - be smarter, faster and stronger
+  - heal an old wound
+  - extinguish an evil forever
+  - hide from a shameful fact
+  - evangelize
+  - spread suffering
+  - prove worth
+  - rise in rank
+  - be praised
+  - discover the truth
+  - make good on a bet
+  - get out of an obligation
+  - convince someone to do their dirty work
+  - steal something valuable
+  - overcome a bad habit
+  - commit an atrocity
+  - earn renown
+  - accumulate power
+  - save someone from a monstrosity
+  - teach
+  - settle down
+  - get just one more haul
+  - preserve the law
+  - discover
+  - devour
+  - restore the family name
+  - live a quiet life
+  - help others
+  - atone
+  - prove their worth
+  - gain honor
+  - expand their land
+  - gain a title
+  - retreat from society
+  - escape
+  - party
+  - return home
+  - serve
+  - reclaim what was taken
+  - do what must be done
+  - be a champion
+  - avoid notice
+  - help a family member
+  - perfect a skill
+  - travel
+  - overcome a disadvantage
+  - play the game
+  - establish a dynasty
+  - improve the realm
+  - retire
+  - recover a lost memory
+  - battle
+  - become a terror to criminals
+  - raise dragons
+  - live up to expectations
+  - become someone else
+  - do what can’t be done
+  - be remembered in song
+  - be forgotten
+  - find true love
+  - lose their mind
+  - indulge
+  - make the best of it
+  - find the one
+  - destroy an artifact
+  - show them all
+  - bring about unending summer
+  - fly
+  - find the six-fingered man
+  - wake the ancient sleepers
+  - entertain
+  - follow an order
+  - die gloriously
+  - be careful
+  - show kindness
+  - not screw it all up
+  - uncover the past
+  - go where no man has gone before
+  - do good
+  - become a beast
+  - spill blood
+  - live forever
+  - hunt the most dangerous game
+  - hate
+  - run away
+horde.creatures:
+  - laaks (Discovery 239)
+  - caffas (Discovery 227)
+  - broken hounds (Discovery 226)
+  - margrs (Discovery 240)
+  - seskiis (Discovery 252)
+  - stratharian war moths (Discovery 255)
+  - thumans (Doscovery 256)
+  - aneens (Discovery 225)
+  - blood barms (Discovery 226)
+  - murdens (Discovery 243)
+  - sathoshes (Discovery 251)
+  - snow lopers (Discovery 253)
+  - steel spiders (Discovery 254)
+  - tetrahydras (Discovery 256)
+  - yovoks (Discovery 261)
+  - zeks (Destiny 282)
+  - mimetans (Destiny 268)
+  - shinspinners (Destiny 276)
+  - trucklers (Destiny 280)
+  - babirasas (Destiny 254)
+  - cuiddits (Destiny 258)
+  - fossicks (Destiny 263)
+  - synth eaters (Destiny 277)
+creature.major.threat:
+  - callerail (Discovery 228)
+  - jiraskar (Discovery 238)
+  - dark fathom (Discovery 232)
+  - dread destroyer (Discovery 234)
+  - balithaur (Destiny 255)
+  - griefsteel (Destiny 264)
+  - rabid fabricator (Destiny 271)
+  - warcore (Destiny 281)
+  - choanid (Destiny 256)
+  - dread excavator (Destiny 260)

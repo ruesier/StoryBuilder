@@ -8,9 +8,9 @@ import (
 )
 
 type StoryBuilder struct {
-	Init   string              `yaml:"_init_"`
-	Fill   map[string][]string `yaml:"-,inline"`
-	random *rand.Rand
+	Init               string              `yaml:"_init_"`
+	Fill               map[string][]string `yaml:"-,inline"`
+	random             *rand.Rand
 }
 
 func (sb *StoryBuilder) init() {
@@ -31,7 +31,7 @@ func (sb StoryBuilder) Generate(key string) string {
 	return build.String()
 }
 
-func (sb StoryBuilder) WriteTo(w io.Writer) (size int64, err error) {
+func (sb *StoryBuilder) WriteTo(w io.Writer) (size int64, err error) {
 	sb.init()
 	chunks := buildChunks(sb.Init, sb)
 	for _, ch := range chunks {
@@ -44,7 +44,7 @@ func (sb StoryBuilder) WriteTo(w io.Writer) (size int64, err error) {
 	return
 }
 
-func (sb StoryBuilder) WriteKey(w io.Writer, key string) (size int64, err error) {
+func (sb *StoryBuilder) WriteKey(w io.Writer, key string) (size int64, err error) {
 	sb.init()
 	if sb.Fill[key] == nil || len(sb.Fill[key]) < 1 {
 		var written int
@@ -77,4 +77,14 @@ func (sb StoryBuilder) WriteKey(w io.Writer, key string) (size int64, err error)
 		}
 	}
 	return
+}
+
+func (sb *StoryBuilder) Combine(other *StoryBuilder) {
+	for key, list := range other.Fill {
+		if current, ok := sb.Fill[key]; ok {
+			sb.Fill[key] = append(current, list...)
+		} else {
+			sb.Fill[key] = list
+		}
+	}
 }

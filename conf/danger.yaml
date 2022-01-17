@@ -1,0 +1,129 @@
+danger:
+  - "<ambitious.org> Some people connected to the organization include:
+  
+  \t- <character!-2-4'.\\n\t- '>"
+  - "<corrupt.ancient> Currently planning <ancient.knack> to accomplish its goals. Some people are aware, at least in part, of this threat.
+  
+  \t- <character!-2-4'.\\n\t- '>"
+  - "<arcane.enemy> This entity has focused their attention on some people.
+  
+  \t- <character!-2-4'.\\n\t- '>"
+  - "a horde of <horde.creatures-1,1,2' and '> are trying <horde.impulse>. They currently are targeting <location.short>"
+  - "There is <cursed.place.type> that wants <cursed.place.impulse>. It is located at <location.short>"
+cursed.place.type:
+  - an abandoned <building>
+  - a tear in reality
+  - a hidden numenera cache
+  - a reactivated complex
+  - a fold in space
+building:
+  - tower
+  - dome
+  - tunnel
+  - palace
+  - castle
+cursed.place.impulse:
+  - to draw in the weak-willed
+  - to spawn evil
+  - to grow
+  - to unleash monsters
+  - to consume the living
+  - to corrupt the living
+  - to be controlled
+horde.impulse:
+  - to grow strong
+  - to drive away their enemies
+  - to breed or multiply
+  - to consume
+  - to defend their home
+  - to spread
+arcane.enemy:
+  - <name> is <arcane.type> <arcane.impluse>.
+arcane.type:
+  - an arch nano
+  - an ambious robot
+  - a mad A.I.
+  - a thinking disease
+  - a sentient artifact
+  - a chosen one
+arcane.impluse:
+  - seeking true immortality
+  - seeking greater numenera power
+  - finding a worthy master
+  - ensnaring as many as possible
+  - fulfilling destiny
+  - trying to thwart destiny
+  - hoarding treasure
+corrupt.ancient:
+  - <name> is <ancient.type>.
+  - <creature.major.threat>
+ancient.type:
+  - an awakened A.I. that wants <ai.instinct>
+  - a transdimentional threat that wants <transdimentional.instinct>
+  - an interplanetary threat that wants <interplanetary.instinct>
+ai.instinct:
+  - to persue its original programming
+  - <ancient.instinct>
+transdimentional.instinct:
+  - to open a connection to the outside
+  - <ancient.instinct>
+interplanetary.instinct:
+  - to conquer new lands
+  - <ancient.instinct>
+ancient.instinct:
+  - to gather worshippers
+  - to tear down creation to its component parts
+  - to destroy all semplance of order
+  - to pass judgement
+  - to eliminate perceived disorder
+ancient.knack:
+  - to use <knack> and <knack>
+  - to lay curses
+  - to induce dreams
+  - to promise rewards
+  - to manipulate events
+  - to use overwhelming power
+  - to leverage a fundamental truth
+ambitious.org:
+  - <name> is a <org.type.orderly> that wants <org.instinct.orderly>. They generally use <knack> and <knack> to accomplish their goals.
+  - <name> is a <org.type.chaotic> that wants <org.instinct.chaotic>. They generally use <knack> and <knack> to accomplish their goals.
+  - <ambitious.org.vanilla>.
+ambitious.org.vanilla:
+  - The Order of Truth (Discovery 215)
+  - The Convergence (Discovery 216)
+  - The Angulan Knights (Discovery 217)
+  - The Jagged Dream (Discovery 218)
+  - The Redfleets (Discovery 219)
+  - The Sarracenians (Discovery 220)
+  - The Amber Gleaners (Destiny 245)
+  - The Order the Healing (Destiny 247)
+  - The League (Destiny 248)
+  - The Guild of Purity (Destiny 249)
+org.type.orderly:
+  - order of knights
+  - church
+  - branch of government
+org.instinct.orderly:
+  - to do what is “right” no matter the cost #Greater Good
+  - to establish and follow doctrine #Religious Organization
+  - to maintain the status quo #Corrupt Government
+  - to recruit
+org.type.chaotic:
+  - cult
+  - cabal
+  - theives guild
+org.instinct.chaotic:
+  - to take by subterfuge #Theives Guild
+  - to infest from within #Cult
+  - to absorb those in power #Cabal
+  - to grow
+impending.doom:
+  - the strong will tyrannize the weak
+  - the few will dominate the many
+  - a sickness and disease will spread
+  - a civilization will be destroyed
+  - the rightful leader will not rule
+  - the societal order will fall apart
+  - the people will be enslaved
+  - the people will abandon what is right
+  - chaos will reign
