@@ -6,9 +6,9 @@ weapon:
   - staff
   - bow
 numenera:
-  - artifact
-  - cypher{<book> <d100>}
-  - oddity
+  - "artifact{<book>: <d100>, quirk: <d100>}"
+  - "cypher{<book>: <d100>}"
+  - "oddity{<d100>}"
 book:
   - destiny
   - discovery
