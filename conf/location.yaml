@@ -1,4 +1,5 @@
 _module_: numenera.location
+_init_: <location>
 location:
   - <location.settled!>
   - "*<location.vanilla!>*"
@@ -127,8 +128,8 @@ location.description:
   - "<location.settled.description>"
   - "<location.wilds.description>"
 location.wilds.description:
-  - "<wilds.type> known for <wilds.weird>. People living in or near this place includes: 
-  
+  - "<wilds.type> known for <wilds.weird>. People living in or near this place includes:
+
 
   \t- <character!-2-4'.\\n\t- '>."
 wilds.type:
@@ -201,8 +202,8 @@ wilds.weird:
   - <precipitation> that leaves salty deposits
   - giant insects
 location.settled.description:
-  - "<settlement.type> known for <settlement.weird>. People living in or near this place includes: 
-  
+  - "<settlement.type> known for <settlement.weird>. People living in or near this place includes:
+
 
   \t- <character!-2-4'.\\n\t- '>.
   "

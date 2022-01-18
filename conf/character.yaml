@@ -1,4 +1,5 @@
 _module_: numenera.character
+_init_: <character>
 character:
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
@@ -91,32 +92,85 @@ character.adjective:
   - serene
   - vicious
 character.type:
-  - glaive[<d2.10>]
-  - jack[<d2.10>]
-  - nano[<d2.10>]
-  - arkus[<d2.10>]
-  - delve[<d2.10>]
-  - wright[<d2.10>]
-  - man[<d2.6>]
-  - woman[<d2.6>]
-  - mutant[<d2.10>]
-  - farmer[<d2.6>]
-  - blacksmith[<d2.6>]
-  - merchant[<d2.6>]
-  - artisan[<d2.6>]
-  - criminal[<d2.10>]
-  - noble[<d2.10>]
-  - sage[<d2.10>]
-  - chiurgeon[<d2.8>]
-  - guardsman[<d2.8>]
-  - diplomat[<d2.8>]
-  - spy[<d2.10>]
-  - craftsman[<d2.8>]
-  - minstrel[<d2.8>]
-  - priest[<d2.10>]
-  - hermit[<d2.6>]
-  - shepard[<d2.6>]
-  - builder[<d2.6>]
+  - glaive[<level>]
+  - jack[<level>]
+  - nano[<level>]
+  - arkus[<level>]
+  - delve[<level>]
+  - wright[<level>]
+  - man[<level.low>]
+  - woman[<level.low>]
+  - mutant[<level>]
+  - farmer[<level.low>]
+  - blacksmith[<level.low>]
+  - merchant[<level.low>]
+  - artisan[<level.low>]
+  - criminal[<level>]
+  - noble[<level>]
+  - sage[<level>]
+  - chiurgeon[<level.mid>]
+  - guardsman[<level.mid>]
+  - diplomat[<level.mid>]
+  - spy[<level>]
+  - craftsman[<level.mid>]
+  - minstrel[<level.mid>]
+  - priest[<level>]
+  - hermit[<level.low>]
+  - shepard[<level.low>]
+  - builder[<level.low>]
+  - arch-nano[<level.high>]
+  - warlord[<level.high>]
+  - general[<level.high>]
+  - hero[<level.high>]
+level:
+  - 2
+  - 3
+  - 3
+  - 3
+  - 4
+  - 4
+  - 4
+  - 5
+  - 5
+  - 6
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+level.low:
+  - 1
+  - 2
+  - 2
+  - 2
+  - 3
+  - 3
+  - 4
+  - 5
+  - 6
+level.mid:
+  - 2
+  - 3
+  - 3
+  - 4
+  - 4
+  - 5
+  - 5
+  - 6
+  - 7
+  - 8
+level.high:
+  - 4
+  - 4
+  - 5
+  - 5
+  - 6
+  - 6
+  - 7
+  - 7
+  - 8
+  - 9
+  - 10
 knack:
   - criminal connections
   - muscle
