@@ -1,0 +1,118 @@
+_init_: <descriptor!> <type> who <focus>.
+_module_: player
+descriptor:
+  - charming
+  - clever
+  - graceful
+  - intelligent
+  - learned
+  - mystical
+  - mechanical
+  - rugged
+  - stealthy
+  - strong
+  - strong-willed
+  - swift
+  - tough
+  - adaptable
+  - articulate
+  - beneficent
+  - cheerful
+  - civic
+  - committed
+  - confident
+  - cultured
+  - curious
+  - earnest
+  - empirical
+  - exacting
+  - forward-thinking
+  - gregarious
+  - heroic
+  - imaginative
+  - industrious
+  - intimidating
+  - intuitive
+  - irrepressible
+  - lawful
+  - loyal
+  - meddlesome
+  - nurturing
+  - obsessive
+  - optimistic
+  - organized
+  - passionate
+  - persevering
+  - prepared
+  - protective
+  - relentless
+  - risk-taking
+  - serene
+  - vicious
+type:
+  - glaive
+  - jack
+  - nano
+  - arkus
+  - wright
+  - delve
+focus:
+  - bears a halo of fire
+  - commands mental powers
+  - controls beasts
+  - controls gravity
+  - crafts illusions
+  - employs magnetism
+  - entertains
+  - exists partially out of phase
+  - explores dark places
+  - fights with panache
+  - focuses mind over matter
+  - fuses flesh and steel
+  - howls at the moon
+  - hunts
+  - lives in the wilderness
+  - masters defense
+  - masters weaponry
+  - murders
+  - rages
+  - rides the lightning
+  - speaks with a silver tongue
+  - talks to machines
+  - wears a sheen of ice
+  - wields power with precision
+  - wields two weapons at once
+  - works the back alleys
+  - works miracles
+  - absorbs energy
+  - acts without consequence
+  - adjures the leviathan
+  - augments flesh with grafts
+  - battles automatons
+  - brandishes an exotic shield
+  - breaks down walls
+  - builds tomorrow
+  - dances with dark matter
+  - defends the gate
+  - defends the weak
+  - descends from nobility
+  - emerged from the obelisk
+  - explores yesterday
+  - fights with a horde
+  - fuses mind and machine
+  - hunts abhumans
+  - imparts wisdom
+  - leads
+  - learns from adversity
+  - metes out justice
+  - moves like a cat
+  - needs no weapons
+  - never say die
+  - possesses a shard of the sun
+  - radiates vitality
+  - sees beyond
+  - shepherds the community
+  - shreds the walls of the world
+  - thunders
+  - touches the sky
+  - wields words like weapons
