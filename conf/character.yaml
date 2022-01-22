@@ -276,7 +276,7 @@ instinct:
   - avenge
   - spread the good word
   - reunite with a loved one
-  - make money
+  - make shins
   - make amends
   - explore a mysterious place
   - uncover a hidden truth
@@ -341,7 +341,7 @@ instinct:
   - recover a lost memory
   - battle
   - become a terror to criminals
-  - raise dragons
+  - raise <mythical.creatures>
   - live up to expectations
   - become someone else
   - do what can’t be done
@@ -354,7 +354,7 @@ instinct:
   - find the one
   - destroy an artifact
   - show them all
-  - bring about unending summer
+  - bring about unending <season>
   - fly
   - find the six-fingered man
   - wake the ancient sleepers
@@ -367,12 +367,13 @@ instinct:
   - uncover the past
   - go where no man has gone before
   - do good
-  - become a beast
+  - become a <beast>
   - spill blood
   - live forever
   - hunt the most dangerous game
   - hate
   - run away
+  - drink <liquid.weird>
 horde.creatures:
   - laaks (Discovery 239)
   - caffas (Discovery 227)
@@ -408,3 +409,51 @@ creature.major.threat:
   - warcore (Destiny 281)
   - choanid (Destiny 256)
   - dread excavator (Destiny 260)
+mythical.creatures:
+  - dragons
+  - unicorns
+  - sphinxes
+  - griffins
+  - centaurs
+  - pegasi
+  - chimeras
+  - basilisks
+  - manticores
+  - trolls
+  - hippogriffs
+  - sea serpents
+  - golems
+  - ogres
+  - gorgons
+  - minotaurs
+  - phoenixes
+  - hydras
+beast:
+  - dragon
+  - unicorn
+  - sphinx
+  - griffin
+  - centaur
+  - pegasus
+  - chimera
+  - basilisk
+  - manticore
+  - troll
+  - hippogriff
+  - sea serpent
+  - golem
+  - ogre
+  - gorgon
+  - minotaur
+  - phoenix
+  - hydra
+  - mermaid
+  - gnome
+  - imp
+  - leprechaun
+  - cyclops
+season:
+  - summer
+  - autumn
+  - winter
+  - spring

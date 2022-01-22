@@ -1,13 +1,14 @@
 _module_: numenera.danger
+_init_: <danger>
 danger:
   - "<ambitious.org> Some people connected to the organization include:
-  
+
   \t- <character!-2-4'.\\n\t- '>"
   - "<corrupt.ancient> Currently planning <ancient.knack> to accomplish its goals. Some people are aware, at least in part, of this threat.
-  
+
   \t- <character!-2-4'.\\n\t- '>"
   - "<arcane.enemy> This entity has focused their attention on some people.
-  
+
   \t- <character!-2-4'.\\n\t- '>"
   - "a horde of <horde.creatures-1,1,2' and '> are trying <horde.impulse>. They currently are targeting <location.short>"
   - "There is <cursed.place.type> that wants <cursed.place.impulse>. It is located at <location.short>"

@@ -24,6 +24,8 @@ if [ "character" = "$2" ]; then
   INITCONF="./conf/character.yaml:"
 elif [ "location" = "$2" ]; then
   INITCONF="./conf/location.yaml:"
+elif [ "danger" = "$2" ]; then
+  INITCONF="./conf/danger.yaml:"
 fi
 
 if [ -n "$1" ]; then
