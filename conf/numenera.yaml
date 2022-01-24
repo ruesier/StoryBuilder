@@ -9,6 +9,9 @@ story:
 
   The party is brought together in order to handle a problem. <danger!>
 
+
+  They will need <completion.key>
+
   ### Dangers
 
   - <danger!-3-4'.\\n- '>.
@@ -24,7 +27,21 @@ story:
 
   ### Areas of interest
 
-  - <location-2,3'\\n- '>"
+  - <location-2,3'\\n- '>
+  
+  ### Player concepts
+  
+  - <descriptor!> glaive who <focus>.
+
+  - <descriptor!> jack who <focus>.
+
+  - <descriptor!> nano who <focus>.
+
+  - <descriptor!> arkus who <focus>.
+
+  - <descriptor!> wright who <focus>.
+
+  - <descriptor!> delve who <focus>."
 title:
   - <name!>, the <adj-1,2> <noun>
 adj:

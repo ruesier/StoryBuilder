@@ -1,5 +1,7 @@
-_init_: <descriptor!> <type> who <focus>.
+_init_: <player!>.
 _module_: player
+player: 
+  - <descriptor!> <type> who <focus>
 descriptor:
   - charming
   - clever
