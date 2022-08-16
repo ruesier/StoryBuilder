@@ -7,7 +7,7 @@ character:
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
   - "<name> is a <character.adjective> <character.type>, and they use <knack> in order to <instinct>"
-  - "*<vanilla.character>*"
+  # - "*<vanilla.character>*"
 vanilla.character:
   - Orannius (Discovery 267)
   - Nariss Horges (Discovery 267)
@@ -273,7 +273,7 @@ knack:
   - "the wind at their back and a spring in their step"
 
 instinct:
-  - avenge
+  - avenge a wronged party
   - spread the good word
   - reunite with a loved one
   - make shins

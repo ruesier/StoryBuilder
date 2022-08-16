@@ -56,12 +56,12 @@ arcane.impluse:
   - seeking greater numenera power
   - finding a worthy master
   - ensnaring as many as possible
-  - fulfilling destiny
+  - ensuring a prophecy comes true
   - trying to thwart destiny
   - hoarding treasure
 corrupt.ancient:
   - <name> is <ancient.type>.
-  - <creature.major.threat>
+  - a <creature.major.threat>, or someone taking advantage of one, wants to <instinct>.
 ancient.type:
   - an awakened A.I. that wants <ai.instinct>
   - a transdimentional threat that wants <transdimentional.instinct>
