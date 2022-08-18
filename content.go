@@ -12,18 +12,25 @@ type StoryBuilder struct {
 	Module			   string              `yaml:"_module_"`
 	Init               string              `yaml:"_init_"`
 	Fill               map[string][]string `yaml:"-,inline"`
+	initialSeed	int64
 	random             *rand.Rand
 	addedModules	   map[string]bool
 }
 
 func (sb *StoryBuilder) init() {
 	if sb.random == nil {
-		sb.random = rand.New(rand.NewSource(time.Now().UnixNano()))
+		sb.initialSeed = time.Now().UnixNano()
+		sb.random = rand.New(rand.NewSource(sb.initialSeed))
 	}
 }
 
 func (sb *StoryBuilder) SetSeed(seed int64) {
+	sb.initialSeed = seed
 	sb.random = rand.New(rand.NewSource(seed))
+}
+
+func (sb *StoryBuilder) GetSeed() int64 {
+	return sb.initialSeed
 }
 
 func (sb StoryBuilder) Generate(key string) string {

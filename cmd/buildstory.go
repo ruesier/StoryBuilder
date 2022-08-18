@@ -12,31 +12,33 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-var paths2SB string
 var repeat int
 var seedstr string
 var key string
+var printSeed bool
 
-var paths []string
+var paths = make(pathFlag)
 
 func init() {
 	flag.IntVar(&repeat, "r", 1, "repeat generation")
-	flag.StringVar(
-		&paths2SB, 
-		"sb", 
-		"./sb.yaml", 
-		"paths to generation configuration, colon ':' separated. the init of the first config is used, default=\"./sb.yaml\"",
+	flag.Var(
+		&paths,
+		"sb",
+		"path to generation configuration. This flag can be used multiple times. the init of the first config is used. default=\"./sb.yaml\"",
 	)
 	flag.StringVar(&seedstr, "seed", "", "randomization seed for generation")
 	flag.StringVar(&key, "k", "", "starting generation key")
+	flag.BoolVar(&printSeed, "printseed", false, "prints seed value")
 	flag.Parse()
-	paths = strings.Split(paths2SB, ":")
+	if len(paths) == 0 {
+		paths["./sb.yaml"] = struct{}{}
+	}
 }
 
 func main() {
 	var sb *storybuilder.StoryBuilder
 	var err error
-	for _, path := range paths {
+	for path := range paths {
 		var f *os.File
 		if f, err = os.Open(path); err != nil {
 			panic(err)
@@ -76,4 +78,19 @@ func main() {
 		}
 		fmt.Println(builder.String())
 	}
+}
+
+type pathFlag map[string]struct{}
+
+func (pf *pathFlag) String() string {
+	builder := &strings.Builder{}
+	for k := range *pf {
+		builder.WriteString(k)
+	}
+	return builder.String()
+}
+
+func (pf *pathFlag) Set(v string) error {
+	(*pf)[v] = struct{}{}
+	return nil
 }
