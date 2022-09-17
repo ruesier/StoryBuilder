@@ -10,7 +10,7 @@ ALLCONFS="./conf/numenera.yaml \
 ./conf/util.yaml \
 ./conf/player.yaml"
 
-HELPSTR="numenera.sh [num] [category]
+HELPSTR="numenera.sh [num] [category] [seed]
 
 num =  number of generations
 
@@ -18,7 +18,9 @@ category =
             'character' will generate a character idea
             'location' will generate a location idea
             'danger' will generate a danger idea
-            'campaign' will generate a campaign idea, default"
+            'campaign' will generate a campaign idea, default
+            
+seed = the rng seed to generate with"
 
 if [ -n "$1" ]; then
     if [ "help" = $1 ]; then
@@ -29,12 +31,14 @@ fi
 
 INITCONF=""
 
+echo "pwd: $(pwd)"
+
 if [ "character" = "$2" ]; then
-  INITCONF="./conf/character.yaml:"
+  INITCONF="./conf/player.yaml"
 elif [ "location" = "$2" ]; then
-  INITCONF="./conf/location.yaml:"
+  INITCONF="./conf/location.yaml"
 elif [ "danger" = "$2" ]; then
-  INITCONF="./conf/danger.yaml:"
+  INITCONF="./conf/danger.yaml"
 elif [ "campaign" = "$2" ]; then
   INITCONF=""
 fi
@@ -52,6 +56,8 @@ if [ -z $SEED ]; then
   SEED=$(cat /dev/urandom |  tr -dc '[:alpha:]' | fold -w ${1:-20} | head -n 1 )
   echo "Seed: $SEED"
 fi
+
+echo "config: $CONFFLAGS"
 
 if [ -n "$1" ]; then
     buildstory -r $1 -seed $SEED $CONFFLAGS
